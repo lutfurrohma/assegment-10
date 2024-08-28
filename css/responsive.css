@@ -1,0 +1,133 @@
+
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* global css */
+    p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    header {
+        padding: 15px;
+        height: 60vh;
+        text-align: center;
+    }
+    .banner-part .content h1 {
+        font-size: 30px;  
+    }
+    .banner-part .content p {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .banner-part .content .bennar-btns a {
+        padding: 8px 16px;
+    }
+    .cus-height {
+        height: 55vh !important;
+    }
+    .banner-part{
+        margin-top: 30px;
+    }
+    .navbar-toggler{
+        border: 2px solid #fff !important;
+        background: #fff;
+    }
+    .testimonial-section {
+        padding: 50px 15px;
+      
+    }
+    .owl-theme .owl-dots {
+        margin-top: 40px !important;
+    }
+    .calltoaction h2 {
+     text-align: center;
+    }
+    .calltoaction .bennar-btns {
+        text-align: center;
+    }
+    .contect-section form {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .contect-section form .from-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .contect-section form .from-inner .left{
+       margin-right: 0;
+    }
+    .contect-section form .from-inner .right{
+       margin-left: 0;
+    }
+    .contect-section .from-inner .right .s-btn {
+        color: #fff !important;
+        background: #fff;
+    }
+    .mb-3 {
+        margin-bottom: 10px!important;
+    }
+    .feature .underline {
+        margin-left: -61px;
+    }
+    .beautyfull-section {
+        padding: 40px 0;
+    }
+    .beautyfull-section .b-inner h6 {
+        margin-top: 30px;
+    }
+    .beautyfull-section .b-inner .underline {
+        padding-bottom: 20px;
+        margin: 20px 0 25px 0;
+    }
+    .super-section {
+        padding: 30px 0;
+       
+    }
+    .super-section .s-inner h6 {
+        margin-top: 25px;
+    }
+    .super-section {
+        padding: 30px 0;
+      
+    }
+    .price-section .titel .underline {
+        padding-bottom: 10px;
+        margin: 20px 0 12px 0;
+        margin-left: -52px;
+    }
+    .price-section .titel {
+        margin: 30px 0;
+    }
+    .contect-section {
+        padding: 30px 0 0;
+        
+    }
+    .contect-section .titel {
+        margin: 30px 0;
+    }
+    .contect-section .titel .underline {
+      
+        padding-bottom: 10px;
+        margin: 25px 0 20px 0;
+        margin-left: -51px;
+    }
+    .contect-section form {
+        width: 64%;
+        margin: 0 auto;
+        margin-top: 99px;
+        padding: 30px 20px;
+        background: #15141a;
+        margin-bottom: -90px;
+        position: relative;
+    }
+ 
+  }
